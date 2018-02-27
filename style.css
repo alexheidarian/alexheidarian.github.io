@@ -1,6 +1,9 @@
 body {
   margin: 0;
-  background-color: #a211a2;
-  color: #ffffff; }
+  color: #ffffff;
+  background-image: url("background-image.png");
+  background-repeat: no-repeat;
+  background-size: 100% contain;
+  background-position: center; }
 
 /*# sourceMappingURL=style.css.map */
