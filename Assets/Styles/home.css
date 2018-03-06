@@ -75,10 +75,11 @@ nav {
     line-height: 2; }
   .content .tagline {
     font-size: 2.5em;
-    margin: 5% 0; }
+    margin: 5% 0;
+    margin-bottom: 0; }
   .content .subtag {
     font-size: 1.7em;
-    margin: 5% 0; }
+    margin-top: 2%; }
 
 @media screen and (max-width: 1000px) {
   nav ul {
@@ -103,8 +104,10 @@ nav {
     .content .pCopy {
       font-size: 3.0em; }
     .content .tagline {
+      margin: 5% 0;
       font-size: 3.0em; }
     .content .subtag {
+      margin: 0;
       font-size: 2.5em; } }
 
 /*# sourceMappingURL=home.css.map */
