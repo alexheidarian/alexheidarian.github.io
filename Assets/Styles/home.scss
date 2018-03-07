@@ -145,13 +145,13 @@ nav {
 				padding-right: 5%;
 				a {
 					box-sizing: content-box;
-					font-size: 200%;
+					font-size: 100%;
 					font-weight: 300;
 				}
 
 				a.current-page {
 					font-weight: 500;
-					font-size: 225%; 
+					font-size: 125%; 
 				}
 			}
 		}
@@ -163,21 +163,21 @@ nav {
 		margin-left: 0;
 
 		h1 {
-			font-size: 7.0em;
+			font-size: 2.75em;
 		}
 
 		.pCopy {
-			font-size: 3.0em;
+			font-size: 1.0em;
 		}
 
 		.tagline {
 			margin: 5% 0;
-			font-size: 3.0em;
+			font-size: 1.5em;
 		}
 
 		.subtag {
 			margin: 0;
-			font-size: 2.5em;
+			font-size: 1.0em;
 		}
 	}
 }

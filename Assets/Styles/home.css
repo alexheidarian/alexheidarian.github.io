@@ -91,24 +91,24 @@ nav {
       padding-right: 5%; }
       nav ul li a {
         box-sizing: content-box;
-        font-size: 200%;
+        font-size: 100%;
         font-weight: 300; }
       nav ul li a.current-page {
         font-weight: 500;
-        font-size: 225%; }
+        font-size: 125%; }
 
   .content {
     text-align: center;
     margin-left: 0; }
     .content h1 {
-      font-size: 7.0em; }
+      font-size: 2.75em; }
     .content .pCopy {
-      font-size: 3.0em; }
+      font-size: 1.0em; }
     .content .tagline {
       margin: 5% 0;
-      font-size: 3.0em; }
+      font-size: 1.5em; }
     .content .subtag {
       margin: 0;
-      font-size: 2.5em; } }
+      font-size: 1.0em; } }
 
 /*# sourceMappingURL=home.css.map */
