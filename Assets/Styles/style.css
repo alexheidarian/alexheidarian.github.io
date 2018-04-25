@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Agane';
+  src: url("../fonts/agane-regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'Agane';
+  src: url("../fonts/agane-regular-light.ttf");
+  font-weight: 300; }
+@font-face {
+  font-family: 'Agane';
+  src: url("../fonts/agane-regular-bold.ttf");
+  font-weight: 500; }
+@font-face {
+  font-family: 'Agane';
+  src: url("../fonts/agane-extra-bold.ttf");
+  font-weight: 700; }
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Agane';
+  margin: 0; }
+
+nav {
+  background-color: #141a2e;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  nav .lt {
+    display: flex; }
+    nav .lt .navTitle {
+      width: 100%;
+      color: #fffbfb;
+      margin: 0;
+      padding-left: 2%;
+      line-height: 2;
+      font-weight: 500;
+      font-size: 250%; }
+    nav .lt .logo {
+      position: relative;
+      top: 10px;
+      padding: 10px; }
+  nav ul {
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        display: block;
+        color: #fffbfb;
+        text-decoration: none;
+        font-size: 200%;
+        padding-left: 31%;
+        padding-right: 31%;
+        padding-top: 3.5%;
+        padding-bottom: 3.5%; }
+      nav ul li a:hover {
+        color: #f43d5e;
+        transition: 0.2s linear; }
+
+.page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .page .title {
+    padding: 5.35%; }
+    .page .title h1 {
+      font-size: 625%;
+      line-height: 1.2em;
+      margin: 0;
+      color: #f43d5e; }
+  .page p {
+    font-size: 200%;
+    margin: 0;
+    padding: 5.35%;
+    line-height: 43px; }
+    .page p .contact1 {
+      color: #fffbfb;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 40px;
+      border-radius: 1.0em;
+      background-color: #f43d5e;
+      /* Rectangle 3: */
+      	/*
+                      background-image: -webkit-linear-gradient(225deg, $red 0%, $purple 100%);
+                      background-image: -o-linear-gradient(225deg, $red 0%, $purple 100%);
+                      background-image: linear-gradient(225deg, $red 0%, $purple 100%);
+      	*/ }
+    .page p .contact1:hover {
+      background-color: #fffbfb;
+      border: 1px solid #f43d5e;
+      color: #f43d5e;
+      transition: 0.1s ease-in; }
+
+footer {
+  background-color: #141a2e;
+  text-align: center;
+  color: #fffbfb;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 1.5em;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%; }
+
+/*# sourceMappingURL=style.css.map */
