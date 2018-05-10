@@ -1,4 +1,4 @@
-$white: #fffbfb;
+$white: #ffffff;
 $black: #141a2e;
 $red: #f43d5e;
 $purple: #d64aff;
@@ -99,6 +99,68 @@ header {
 }
 
 
+
+.page {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  .title {
+
+    //padding: 5%;
+    padding: 0 10%;
+    h1 {
+      font-size: 625%;
+      color: $red;
+      margin: 0;
+    }
+  }
+
+  .details {
+    //padding: 5%;
+    //margin-top: 20%;
+    padding: 0 10%;
+    font-size: 200%;
+    font-weight: 500;
+  
+    p {
+      margin: 0;
+    }
+
+    .contact1 {
+      font-weight: 400;
+      background-color: $red;
+      color: $white;
+      text-decoration: none;
+      border-radius: 1.0em;
+      padding: 3% 7%;
+
+      transition: 0.1s linear;
+    }
+
+    .contact1:hover {
+      border: 1px solid $red;
+      background-color: $white;
+      color: $red;
+    }
+  }
+}
+
+
+
+footer {
+  background-color: $black;
+  text-align: center;
+  color: $white;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin-top: 100vh;
+  font-size: 1.5em;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+
 @media screen and (max-width: 1048px) {
   header {
     nav {
@@ -115,16 +177,3 @@ header {
  
 
   
-footer {
-	background-color: $black;
-	text-align: center;
-	color: $white;
-	position: fixed;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
-	width: 100%;
-	font-size: 1.5em;
-	padding-top: 1.5%;
-	padding-bottom: 1.5%;
-}

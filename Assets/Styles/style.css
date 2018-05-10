@@ -35,7 +35,7 @@ header {
     background-color: #141a2e;
     display: flex; }
     header .logo_banner h1 {
-      color: #fffbfb;
+      color: #ffffff;
       margin-left: 0.5em;
       line-height: 1; }
     header .logo_banner img {
@@ -53,27 +53,56 @@ header {
         padding: 1% 10%; }
         header nav ul li a {
           display: block;
-          color: #fffbfb;
+          color: #ffffff;
           text-decoration: none;
           font-size: 1.75em;
           transition: 0.2s linear; }
         header nav ul li a:hover {
           color: #f43d5e; }
 
-@media screen and (max-width: 1048px) {
-  header nav ul {
-    flex-direction: column; } }
+.page {
+  display: flex;
+  justify-content: center;
+  margin: 5%; }
+  .page .title {
+    padding: 0 10%; }
+    .page .title h1 {
+      font-size: 625%;
+      color: #f43d5e;
+      margin: 0; }
+  .page .details {
+    padding: 0 10%;
+    font-size: 200%;
+    font-weight: 500; }
+    .page .details p {
+      margin: 0; }
+    .page .details .contact1 {
+      font-weight: 400;
+      background-color: #f43d5e;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 1.0em;
+      padding: 3% 7%;
+      transition: 0.1s linear; }
+    .page .details .contact1:hover {
+      border: 1px solid #f43d5e;
+      background-color: #ffffff;
+      color: #f43d5e; }
+
 footer {
   background-color: #141a2e;
   text-align: center;
-  color: #fffbfb;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  color: #ffffff;
   width: 100%;
+  position: relative;
+  height: 100%;
+  margin-top: 100vh;
   font-size: 1.5em;
   padding-top: 1.5%;
   padding-bottom: 1.5%; }
+
+@media screen and (max-width: 1048px) {
+  header nav ul {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
