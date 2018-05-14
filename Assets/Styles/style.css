@@ -63,25 +63,30 @@ header {
 .page {
   display: flex;
   justify-content: center;
-  margin: 5%; }
+  margin: 5%;
+  margin-top: 10%; }
   .page .title {
-    padding: 0 10%; }
+    padding: 0 7%; }
     .page .title h1 {
-      font-size: 625%;
+      font-size: 6.25em;
       color: #f43d5e;
       margin: 0; }
   .page .details {
-    padding: 0 10%;
+    padding: 0 7%;
     font-size: 200%;
     font-weight: 500; }
     .page .details p {
       margin: 0; }
+      .page .details p .to_linkedin {
+        color: #f43d5e;
+        line-height: 2;
+        text-decoration: none; }
     .page .details .contact1 {
       font-weight: 400;
       background-color: #f43d5e;
       color: #ffffff;
       text-decoration: none;
-      border-radius: 1.0em;
+      border-radius: 1.5em;
       padding: 3% 7%;
       transition: 0.1s linear; }
     .page .details .contact1:hover {
@@ -101,8 +106,25 @@ footer {
   padding-top: 1.5%;
   padding-bottom: 1.5%; }
 
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 1100px) {
   header nav ul {
-    flex-direction: column; } }
+    flex-direction: column; }
+
+  .page {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .page .title {
+      padding: 10% 0; }
+      .page .title h1 {
+        text-align: center; }
+    .page .details {
+      padding: 10% 0; }
+      .page .details p {
+        text-align: center;
+        font-size: 80%; }
+      .page .details .contact1 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; } }
 
 /*# sourceMappingURL=style.css.map */

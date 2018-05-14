@@ -104,12 +104,13 @@ header {
   display: flex;
   justify-content: center;
   margin: 5%;
+  margin-top: 10%;
   .title {
 
     //padding: 5%;
-    padding: 0 10%;
+    padding: 0 7%;
     h1 {
-      font-size: 625%;
+      font-size: 6.25em;
       color: $red;
       margin: 0;
     }
@@ -118,12 +119,18 @@ header {
   .details {
     //padding: 5%;
     //margin-top: 20%;
-    padding: 0 10%;
+    padding: 0 7%;
     font-size: 200%;
     font-weight: 500;
   
     p {
       margin: 0;
+
+      .to_linkedin {
+        color: $red;
+        line-height: 2;
+        text-decoration: none;
+      }
     }
 
     .contact1 {
@@ -131,13 +138,14 @@ header {
       background-color: $red;
       color: $white;
       text-decoration: none;
-      border-radius: 1.0em;
+      border-radius: 1.5em;
       padding: 3% 7%;
 
       transition: 0.1s linear;
     }
 
     .contact1:hover {
+      
       border: 1px solid $red;
       background-color: $white;
       color: $red;
@@ -161,13 +169,38 @@ footer {
 }
 
 
-@media screen and (max-width: 1048px) {
+@media screen and (max-width: 1100px) {
   header {
     nav {
       ul {
         flex-direction: column;
       }
     }
+  }
+
+  .page {
+    flex-wrap: wrap;
+    justify-content: center;
+    .title {
+      padding: 10% 0;
+      h1 {
+        text-align: center;
+      }
+    }
+
+     .details {
+        padding: 10% 0;
+        p {
+          text-align: center;
+          font-size: 80%;
+        }
+
+        .contact1 {
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
   }
 }
     
