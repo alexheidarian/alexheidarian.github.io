@@ -32,11 +32,7 @@ html {
   //box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+
 
 
 body {
@@ -110,7 +106,7 @@ header {
     //padding: 5%;
     padding: 0 7%;
     h1 {
-      font-size: 6.25em;
+      font-size: 5.25em;
       color: $red;
       margin: 0;
     }
@@ -140,7 +136,7 @@ header {
       text-decoration: none;
       border-radius: 1.5em;
       padding: 3% 7%;
-
+      text-align: center;
       transition: 0.1s linear;
     }
 
@@ -153,7 +149,54 @@ header {
   }
 }
 
+.about {
+  .details {
+    p {
+      font-weight: 400;
+    }
+  }
+}
 
+.about-more {
+  .title {
+        h1 {
+      
+    }
+  }
+
+  .details {
+    padding-left: 0;
+
+    p {
+      font-weight: 400;
+
+      a {
+        color: $red;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.contact {
+  /*.title {
+    margin-left: 10%;
+    padding-right: 0;
+    h1 {
+      font-size: 4.37em;
+    }
+  }*/
+
+  .details {
+    p {
+      font-weight: 400;
+    }
+  }
+}
 
 footer {
   background-color: $black;

@@ -17,11 +17,6 @@
 html {
   height: 100%; }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit; }
-
 body {
   font-family: 'Agane';
   margin: 0; }
@@ -68,7 +63,7 @@ header {
   .page .title {
     padding: 0 7%; }
     .page .title h1 {
-      font-size: 6.25em;
+      font-size: 5.25em;
       color: #f43d5e;
       margin: 0; }
   .page .details {
@@ -88,11 +83,36 @@ header {
       text-decoration: none;
       border-radius: 1.5em;
       padding: 3% 7%;
+      text-align: center;
       transition: 0.1s linear; }
     .page .details .contact1:hover {
       border: 1px solid #f43d5e;
       background-color: #ffffff;
       color: #f43d5e; }
+
+.about .details p {
+  font-weight: 400; }
+
+.about-more .details {
+  padding-left: 0; }
+  .about-more .details p {
+    font-weight: 400; }
+    .about-more .details p a {
+      color: #f43d5e;
+      text-decoration: none; }
+    .about-more .details p a:hover {
+      text-decoration: underline; }
+
+.contact {
+  /*.title {
+    margin-left: 10%;
+    padding-right: 0;
+    h1 {
+      font-size: 4.37em;
+    }
+  }*/ }
+  .contact .details p {
+    font-weight: 400; }
 
 footer {
   background-color: #141a2e;
